@@ -1072,3 +1072,138 @@
     width: 100%;
   }
 }
+
+
+.style-recommendation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.style-recommendation-card {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid #eadbd8;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.style-recommendation-icon {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #a36570;
+  font-size: 23px;
+}
+
+.style-recommendation-card h4 {
+  margin: 0 0 12px;
+  font: 500 19px Georgia, serif;
+}
+
+.style-recommendation-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.style-recommendation-card li {
+  margin: 0 0 9px;
+  color: #85777a;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .style-recommendation-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.style-recommendation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.style-recommendation-card {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid #eadbd8;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.style-recommendation-icon {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #a36570;
+  font-size: 23px;
+}
+
+.style-recommendation-card h4 {
+  margin: 0 0 12px;
+  font: 500 19px Georgia, serif;
+}
+
+.style-recommendation-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.style-recommendation-card li {
+  margin: 0 0 9px;
+  color: #85777a;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .style-recommendation-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.style-recommendation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.style-recommendation-card {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid #eadbd8;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.style-recommendation-icon {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #a36570;
+  font-size: 23px;
+}
+
+.style-recommendation-card h4 {
+  margin: 0 0 12px;
+  font: 500 19px Georgia, serif;
+}
+
+.style-recommendation-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.style-recommendation-card li {
+  margin: 0 0 9px;
+  color: #85777a;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .style-recommendation-grid {
+    grid-template-columns: 1fr;
+  }
+}
