@@ -4,6 +4,9 @@ from fastapi.middleware.cors import CORSMiddleware
 import mediapipe as mp
 import cv2
 import numpy as np
+from pydantic import BaseModel, Field
+from body_shape import predict_body_shape
+from celebrity_matching import match_celebrities
 
 app = FastAPI(title="Your Style Twin API")
 
@@ -133,3 +136,47 @@ async def analyze_face(photo: UploadFile = File(...)):
             "not a definitive face-shape classification."
         ),
     }
+
+
+class BodyShapeRequest(BaseModel):
+    bust_cm: float = Field(gt=0)
+    waist_cm: float = Field(gt=0)
+    hips_cm: float = Field(gt=0)
+    shoulder_width_cm: float | None = Field(default=None, gt=0)
+
+
+@app.post("/predict-body-shape")
+def predict_body_shape_endpoint(request: BodyShapeRequest):
+    result = predict_body_shape(
+        bust_cm=request.bust_cm,
+        waist_cm=request.waist_cm,
+        hips_cm=request.hips_cm,
+        shoulder_width_cm=request.shoulder_width_cm,
+    )
+    return result
+
+
+class CelebrityMatchRequest(BaseModel):
+    bust_cm: float = Field(gt=0)
+    waist_cm: float = Field(gt=0)
+    hips_cm: float = Field(gt=0)
+    height_cm: float | None = Field(default=None, gt=0)
+    inseam_cm: float | None = Field(default=None, gt=0)
+    torso_length_cm: float | None = Field(default=None, gt=0)
+
+
+@app.post("/match-celebrities")
+def match_celebrities_endpoint(request: CelebrityMatchRequest):
+    try:
+        return match_celebrities(
+            bust_cm=request.bust_cm,
+            waist_cm=request.waist_cm,
+            hips_cm=request.hips_cm,
+            height_cm=request.height_cm,
+            inseam_cm=request.inseam_cm,
+            torso_length_cm=request.torso_length_cm,
+        )
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+    except ValueError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))

@@ -1,0 +1,52 @@
+name,height_cm,weight_kg,bust_cm,waist_cm,hips_cm,shoulder_width_cm,torso_length_cm,inseam_cm,body_shape_label,measurement_source,measurement_confidence
+Scarlett Johansson,160,57,91.5,63.5,91.5,36,43.2,72,Hourglass (X Shape),https://celebrityinside.com,Medium
+Sofia Vergara,170,64,96.5,71,99,38.2,45.9,76.5,Hourglass (X Shape),https://celebrityinside.com,Medium
+Jennifer Lawrence,175,63,89,66,91.5,39.4,47.2,78.8,Hourglass (X Shape),https://celebrityinside.com,Medium
+Zendaya,178,55,81,61,86,40.1,48.1,80.1,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Keira Knightley,170,54,81,58.5,89,38.2,45.9,76.5,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Gwyneth Paltrow,175,60,86,63.5,89,39.4,47.2,78.8,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Kim Kardashian,157,59,96.5,66,104,35.3,42.4,70.6,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Jennifer Love Hewitt,157,53,96.5,63.5,91.5,35.3,42.4,70.6,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Angelina Jolie,169,54,91.5,58.5,89,38,45.6,76,Inverted Triangle / Carrot (V Shape),https://celebrityinside.com,Medium
+Cameron Diaz,174,58,86,66,91.5,39.2,47,78.3,Inverted Triangle / Carrot (V Shape),https://celebrityinside.com,Medium
+Rebel Wilson,160,90,112,96,117,36,43.2,72,Apple (O Shape),https://celebrityinside.com,Medium
+Queen Latifah,178,95,117,102,114,40.1,48.1,80.1,Apple (O Shape),https://celebrityinside.com,Medium
+Katy perry,170,61,91.5,63.5,89,38.2,45.9,76.5,Hourglass (X Shape),https://celebrityinside.com,Medium
+Beyonce,169,62,89,66,96.5,38,45.6,76,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Jennifer Lopez,164,62,94,68.5,96.5,36.9,44.3,73.8,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Kelly Clarkson,161,70,94,79,102,36.2,43.5,72.4,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Taylor Swift,180,58,89,61,89,40.5,48.6,81,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Ariana Grande,154,48,81,61,84,34.6,41.6,69.3,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Dolly Patron,152,52,102,61,91.5,34.2,41,68.4,Inverted Triangle / Carrot (V Shape),https://celebrityinside.com,Medium
+Adele,175,85,102,81,104,39.4,47.2,78.8,Apple (O Shape),https://celebrityinside.com,Medium
+Jessica Simpson,161,55,96.5,63.5,91.5,36.2,43.5,72.4,Apple (O Shape),https://celebrityinside.com,Medium
+Nicki Minaj,157,62,102,66,114,35.3,42.4,70.6,Hourglass (X Shape),https://celebrityinside.com,Medium
+Megan Thee Stallion,178,90,96.5,66,112,40.1,48.1,80.1,Hourglass (X Shape),https://celebrityinside.com,Medium
+Rihanna,173,60,91.5,61,91.5,38.9,46.7,77.9,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Shakira,157,54,89,61,94,35.3,42.4,70.6,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Katrina Kaif,174,55,89,66,91.5,39.2,47,78.3,Hourglass (X Shape),https://celebrityinside.com,Medium
+Shilpa Shetty,170,58,86,66,91.5,38.2,45.9,76.5,Hourglass (X Shape),https://celebrityinside.com,Medium
+Nora Fatehi,168,62,89,66,94,37.8,45.4,75.6,Hourglass (X Shape),https://celebrityinside.com,Medium
+Jahnavi Kapoor,165,56,89,66,91.5,37.1,44.6,74.2,Hourglass (X Shape),https://celebrityinside.com,Medium
+Madhuri Dixit,163,56,91.5,68.5,94,36.7,44,73.4,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Vidya Balan,163,68,91.5,76,99,36.7,44,73.4,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Mrunal Thakur,166,55,86,68.5,91.5,37.4,44.8,74.7,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Tamannaah Bhatia,165,56,86,66,91.5,37.1,44.6,74.2,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Ileana D'Cruz,165,56,86,66,91.5,37.1,44.6,74.2,Pear / Triangle (A Shape),https://celebrityinside.com,Medium
+Deepika Padukone,174,60,86,66,91.5,39.2,47,78.3,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Anushka Sharma,176,55,86,66,91.5,39.6,47.5,79.2,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Kriti Sanon,178,56,84,66,89,40.1,48.1,80.1,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Shraddha Kapoor,162,52,86,63.5,89,36.4,43.7,72.9,Inverted Triangle / Carrot (V Shape),https://celebrityinside.com,Medium
+Sushmitha Sen,175,56,86,66,91.5,39.4,47.2,78.8,Inverted Triangle / Carrot (V Shape),https://celebrityinside.com,Medium
+Sonam Kapoor,175,57,86,66,91.5,39.4,47.2,78.8,Inverted Triangle / Carrot (V Shape),https://celebrityinside.com,Medium
+Kajol,160,62,86,71,94,36,43.2,72,Apple (O Shape),https://celebrityinside.com,Medium
+Parineeti Chopra,160,56,86,68.5,91.5,36,43.2,72,Apple (O Shape),https://celebrityinside.com,Medium
+Huma Qureshi,165,62,91.5,74,96.5,37.1,44.6,74.2,Apple (O Shape),https://celebrityinside.com,Medium
+Kajal Aggarwal,165,56,86,68.5,91.5,37.1,44.6,74.2,Hourglass (X Shape),https://celebrityinside.com,Medium
+Nithya Menen,160,54,86,71,91.5,36,43.2,72,Hourglass (X Shape),https://celebrityinside.com,Medium
+Hansika Motwani,165,62,86,71,94,37.1,44.6,74.2,Hourglass (X Shape),https://celebrityinside.com,Medium
+Rakul Preet Singh,168,52,84,63.5,89,37.8,45.4,75.6,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Pooja Hegde,175,53,86,63.5,89,39.4,47.2,78.8,Rectangle/Column (I or H Shape),https://celebrityinside.com,Medium
+Samantha Ruth Prabhu,158,53,84,63.5,89,35.6,42.7,71.1,Inverted Triangle / Carrot (V Shape),https://celebrityinside.com,Medium
+Shruti Hassan,165,54,86,68.5,89,37.1,44.6,74.2,Inverted Triangle / Carrot (V Shape),https://celebrityinside.com,Medium
+Anushka Shetty,175,68,89,74,96.5,39.4,47.2,78.8,Soft Hourglass / Apple (O Shape),https://celebrityinside.com,Medium
